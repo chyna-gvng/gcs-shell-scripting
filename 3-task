@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Bash script that asks the user for two numbers and outputs their products.
+
+echo "Enter First Number :"
+read first_num
+echo "Enter Second Number :"
+read second_num
+product=$((first_num * second_num))
+echo "The product of $first_num and $second_num is $product"
+
+# /*Incomplete*/ #
